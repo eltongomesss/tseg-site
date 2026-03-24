@@ -65,7 +65,7 @@ export function TestimonialsSection() {
               transition={{
                 duration: 0.6,
                 delay: i * 0.15,
-                ease: [0.25, 0.46, 0.45, 0.94],
+                ease: [0.25, 0.46, 0.45, 0.94] as const,
               }}
               className="group rounded-2xl border border-white/[0.06] bg-[#0f1528]/60 p-8 hover:border-[#2d2e6b]/40 transition-all duration-300 animate-float"
               style={{ animationDelay: `${i * 0.5}s` }}

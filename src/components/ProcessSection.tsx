@@ -80,7 +80,7 @@ export function ProcessSection() {
                   transition={{
                     duration: 0.7,
                     delay: i * 0.2,
-                    ease: [0.25, 0.46, 0.45, 0.94],
+                    ease: [0.25, 0.46, 0.45, 0.94] as const,
                   }}
                   className={`relative flex items-start gap-8 md:gap-0 ${
                     isLeft ? "md:flex-row" : "md:flex-row-reverse"

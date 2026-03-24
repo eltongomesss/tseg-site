@@ -96,16 +96,16 @@ export function ScannerHero() {
         {/* ── Camada Final: Logo sem fundo ── */}
         <motion.div
           style={{ opacity: opacityC, scale: scaleC }}
-          className="absolute inset-0 w-full h-full z-30 flex flex-col items-center justify-center pointer-events-none"
+          className="absolute inset-0 w-full h-full z-50 flex flex-col items-center justify-center pointer-events-none"
         >
-          <div className="absolute inset-0 bg-[#0a0f1c]/80 backdrop-blur-md" />
-          <div className="relative z-40 flex flex-col items-center">
+          <div className="absolute inset-0 bg-[#0a0f1c]/90 backdrop-blur-lg" />
+          <div className="relative z-50 flex flex-col items-center">
             {/* Logo sem fundo */}
-            <div className="w-72 h-36 md:w-[420px] md:h-[210px] relative drop-shadow-[0_0_80px_rgba(79,139,255,0.4)]">
+            <div className="w-80 h-40 md:w-[480px] md:h-[240px] relative drop-shadow-[0_0_80px_rgba(79,139,255,0.4)]">
               <img
                 src="/logosemfundo.png"
                 alt="T-SEG Sistemas de Segurança"
-                className="w-full h-full object-contain mix-blend-lighten"
+                className="w-full h-full object-contain brightness-[1.1]"
               />
             </div>
             <div className="mt-8 h-[1px] w-32 bg-gradient-to-r from-transparent via-[#4f8bff] to-transparent" />

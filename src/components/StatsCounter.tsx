@@ -62,7 +62,7 @@ export function StatsCounter() {
               transition={{
                 duration: 0.6,
                 delay: i * 0.15,
-                ease: [0.25, 0.46, 0.45, 0.94],
+                ease: [0.25, 0.46, 0.45, 0.94] as const,
               }}
               className="flex flex-col items-center text-center gap-4 group"
             >
